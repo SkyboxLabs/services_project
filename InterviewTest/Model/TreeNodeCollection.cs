@@ -102,11 +102,6 @@ namespace InterviewTest.Model
             {
                 return parentPosition;
             }
-
-            // Contemplating replacing all but the top if with
-            //return GetPosition(current.Parent) + (current.Parent == null || current.Parent.Score > current.Score)
-            //    ? current.RightCount + (current.Parent?.UserIds?.Count ?? 1)
-            //    : (current.Parent.Score < current.Score) ? -1 * (current.LeftCount + 1) : 0;
         }
     }
 }
